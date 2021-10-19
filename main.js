@@ -15,11 +15,11 @@ function start() {
     inputValue = document.getElementById("objectName").value;
 }
 
-function draw() {
-    image(video, 0, 0, 480, 380);
+function modelLoaded() {
+    window.alert('Cocossd model is loaded successfully');
+    status = true;
 }
 
-function modelLoaded() {
-    window.alert("Cocossd model is successfully loaded in the web app");
-    status = true;
+function draw() {
+    image(video, 0, 0, 480, 380);
 }

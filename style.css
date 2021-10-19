@@ -7,12 +7,12 @@
 
 body {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 200px;
+    padding-bottom: 600px;
 }
 
 .heading {
@@ -148,7 +148,7 @@ canvas {
     border-radius: 15px;
     box-shadow: 0 0 20px 0 #00d6e6;
     border: 5px solid #fff;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .copyright-footer {

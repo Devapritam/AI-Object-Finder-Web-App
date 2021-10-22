@@ -40,7 +40,7 @@ function draw() {
             document.getElementById("status").innerHTML = "Status - Objects Detected";
 
             fill('#F10000');
-            percent = objects[i].confidence * 100;
+            percent = floor(objects[i].confidence * 100);
             text(objects[i].label + " " + percent + "%", objects[i].x + 15, objects[i].y + 15);
             noFill();
             stroke('#F10000');

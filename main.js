@@ -1,3 +1,4 @@
+inputValue = "";
 objects = [];
 status = "";
 // btn = document.getElementsByClassName("start-btn");
@@ -23,7 +24,7 @@ function modelLoaded() {
 
 function gotResult(error, results) {
     if (error) {
-        console.error(error);
+        console.log(error);
     }
     else {
         console.log(results);
